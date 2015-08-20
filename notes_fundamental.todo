@@ -1,6 +1,6 @@
 Fundamental Analysis:
 
-  - Stocks with low trading volume can be hard to get into and outof, making them riskier stocks.
+  - Stocks with low trading volume can be hard to get into and out of, making them riskier stocks.
 
   Income Statement:
 
@@ -20,4 +20,52 @@ Fundamental Analysis:
 
     Expenses:
       - Interest payments: interest paid during the year on short- and long-term liabilities.
+
+      TODO:
+  ☐ Fundamental analysis
+    - Risiko ist das einzige worauf der Investor Einfluss hat.
+      - 
+    - Trendfolger
+      - MACD, Moving Average
+    - Oszillatoren
+      - RSI
+    - Filter
+      - ADX
+    - Ertrag, Erlös, Gewinn
+    - KGV
+    - KBV
+    - KCV
+    - KUV
+
+  ☐ Teschnische Analyse
+    - Trendlinie
+    - Trendkanal
+    - Dreiecksformationen
+    - Widerstände, Unterstützungen
+    - Doppelboden-Formationen ( Ausbruch nach oben)
+    - Schulter-Kopf-Schulter-Formation
+
+  ✔ trading signals from average curves @done (15-07-27 10:43)
+  ☐ Konfidenzintervalle
+    - Stichprobenfunktionen
+    - Schätzfunktionen, Estimators
+    - Maximum-Likelihood-Methode für die Schätzfunktionen
+    - Mean, bei bekannter Varianz -> Standardnormalverteilung
+    - Mean, bei unbekannter Varianz -> t-Verteilung => t-Test
+    - Schätzung der Varianz -> Chi-Quadrat-Verteilung
+
+  ☐ Paramtertests
+    - Irrtumswarscheinlichkeit, Confidence-Level
+
+    - t-Test
+    - p-Value ( Tail calculation )
+
+  ☐ 
+
+
+  ☐ getting web stuff through python, curl, wget
+
+
+  operativer Gewinn = EBITDA
+
 
