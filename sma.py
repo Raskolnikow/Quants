@@ -19,7 +19,11 @@ def loaddata(stock_name):
 
 	"""
 
-	quotes = web.DataReader(stock_name, data_source='yahoo', start='1/1/2000', end='4/14/2014')
+	quotes = web.DataReader(stock_name, 
+		data_source='yahoo', 
+		start='1/1/2000', 
+		end='4/14/2014')
+	
 	return quotes 
 
 
