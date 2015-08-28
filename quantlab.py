@@ -4,6 +4,20 @@ import statsmodels.api as sm
 
 
 def get_stock_data(stock, start_p, end_p):
+    """ Returns the stock data as DataFrame
+
+        Parameters
+        ==========
+        stock: string
+            bla bla
+
+        Returns
+        =======
+        value: DataFrame
+            bla bla
+            
+    """
+
     stock = web.DataReader(stock, data_source='yahoo', start=start_p, end=end_p)
     stock['log_ret'] = np.log(stock['Adj Close'] / stock['Adj Close'].shift(1))
     stock['cum_ret'] = np.log(stock['Adj Close'] / stock['Adj Close'][0])

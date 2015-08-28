@@ -1,6 +1,6 @@
 import numpy as np
 import matplotlib
-import stock_market_beta as my
+import quantlab as ql
 
 matplotlib.use('WebAgg')
 
@@ -15,10 +15,10 @@ STOCKS = ['TSLA', 'AAPL', 'NFLX']
 stock = []
 model = []
 
-market = my.get_stock_data(MARKET, S_DATE, E_DATA)
+market = ql.get_stock_data(MARKET, S_DATE, E_DATA)
 for stk in STOCKS:
-    stock.append(my.get_stock_data(stk, S_DATE, E_DATA))
-    model.append(my.lin_reg_stock(MARKET, stk, S_DATE, E_DATA))
+    stock.append(ql.get_stock_data(stk, S_DATE, E_DATA))
+    model.append(ql.lin_reg_stock(MARKET, stk, S_DATE, E_DATA))
 
 #print mdl.summary()
 
