@@ -1,0 +1,417 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"get",
+				"get_stock_data	function"
+			],
+			[
+				"end",
+				"end_p	param"
+			],
+			[
+				"resu",
+				"result"
+			],
+			[
+				"dail",
+				"daily_ret"
+			],
+			[
+				"da",
+				"daily_ret"
+			],
+			[
+				"test",
+				"test_func"
+			],
+			[
+				"TestS",
+				"TestSuitFunc"
+			],
+			[
+				"CHEC",
+				"CHECK_NULL_RP"
+			],
+			[
+				"Test",
+				"TestSuitButton"
+			],
+			[
+				"def",
+				"default"
+			],
+			[
+				"B",
+				"BUTTON"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "lin_reg_market_stock.py",
+			"settings":
+			{
+				"buffer_size": 1052,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "stock_market_beta.py",
+			"settings":
+			{
+				"buffer_size": 1446,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 127.0,
+		"last_filter": "Package Control: in",
+		"selected_items":
+		[
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/solszak/Documents/Python Scripts/quants"
+	],
+	"file_history":
+	[
+		"/C/Profitech/Kaiser/kaile.c",
+		"/C/Profitech/black_jack.c",
+		"/C/Profitech/show_zul.c",
+		"/C/Profitech/md100_gold_update.c",
+		"/C/swDevelop/.gitignore",
+		"/C/Profitech/mstar.c",
+		"/C/Profitech/mstar.h",
+		"/C/Users/solszak/.gitconfig",
+		"/C/Users/solszak/.config/git/gitk",
+		"/C/Profitech/Mega/equMega.h",
+		"/C/Profitech/vm_struct.h",
+		"/C/Profitech/ram.c",
+		"/C/Profitech/equ.h",
+		"/C/Profitech/ram.h",
+		"/D/workDir/goc/BLAH.goc",
+		"/C/Profitech/herstellermodul.c",
+		"/C/Profitech/aristosound.c",
+		"/C/Profitech/Kaiser/HotDragon/HotDragon_func.c",
+		"/C/Profitech/Kaiser/HotDragon/HotDragon_tables.c",
+		"/C/Profitech/struct.h",
+		"/C/Profitech/Kaiser/BlackHole/BlackHole_func.h",
+		"/C/Profitech/Kaiser/BlackHole/BlackHole_equ.h",
+		"/C/Profitech/Kaiser/Sonnenkaefer/Sonnenkaefer_equ.h",
+		"/C/Profitech/Kaiser/HotDragon/HotDragon_tables.h",
+		"/C/Profitech/Kaiser/kaile_structs.h",
+		"/C/Profitech/aussda.c",
+		"/C/Profitech/Kaiser/HotDragon/HotDragon_func.h",
+		"/C/Profitech/dasdru.c",
+		"/D/KaiserDebugDummy.h",
+		"/C/Profitech/leiter.c",
+		"/C/Profitech/herstellerspezP.c",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/Users/solszak/Documents/Python Scripts/quants/today.todo",
+		"/C/Users/solszak/Documents/Python Scripts/quants/notes_fundamental.todo",
+		"/C/Users/solszak/Desktop/temp.py",
+		"/C/Users/solszak/Documents/Python Scripts/average.py",
+		"/C/Users/solszak/Documents/Python Scripts/Notes_Parameterschätzung.txt"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"spy",
+			"soke_button_trigger",
+			"DEFGO_RgSonnenkaefer",
+			"blah",
+			"KAISER_TEST_SUIT",
+			"VID_COM_COMMAND_VARIPARA",
+			"MENUE_TOUCH_BUTTON_LEFT_X0",
+			"BUT_TR5_MENUE_LEFT",
+			"menue",
+			"test_suit_btn_pressed",
+			"\\0",
+			"vid_rs_txt_out",
+			"test_suit_btn_msg",
+			"RgGameName",
+			"dep",
+			"depended",
+			"vid_rs_txt_out",
+			"max_motoren",
+			"} BUTTON",
+			"FTestSuitBtnPressed",
+			"KAISER_TEST_SUIT",
+			"vid_rs_view_obj(SystemInfo",
+			"PlayerInfo",
+			"SystemInfo",
+			"W_AGT",
+			"installTestSuitButtons",
+			"kaiser",
+			"tKaiserleiter",
+			"kaile",
+			"txt_tabDRA",
+			"annahmeDRA",
+			"game_button_tabDRA",
+			"install_game_buttonDRA",
+			"DISP_STRUCT",
+			"struct",
+			"tFuncMerkurAGValue",
+			"install_game_buttonDRA",
+			"anz_text",
+			"setNullAllGames",
+			"SET_NULL_RP",
+			"p_blah",
+			"p_soke"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "lin_reg_market_stock.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1052,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1000,
+								1000
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "stock_market_beta.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1446,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1161,
+								1161
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 336.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 313.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "quants.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ms",
+				"mstar.c"
+			],
+			[
+				"mstar",
+				"mstar.h"
+			],
+			[
+				"mst",
+				"mstar.c"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"last_automatic_layout":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		]
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 210.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
