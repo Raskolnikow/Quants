@@ -58,14 +58,6 @@
 				"buffer_size": 1052,
 				"line_ending": "Windows"
 			}
-		},
-		{
-			"file": "stock_market_beta.py",
-			"settings":
-			{
-				"buffer_size": 1440,
-				"line_ending": "Unix"
-			}
 		}
 	],
 	"build_system": "Packages/Python/Python.sublime-build",
@@ -129,6 +121,7 @@
 	],
 	"file_history":
 	[
+		"/C/Users/solszak/Documents/Python Scripts/quants/stock_market_beta.py",
 		"/C/Profitech/Kaiser/kaile.c",
 		"/C/Profitech/black_jack.c",
 		"/C/Profitech/show_zul.c",
@@ -243,7 +236,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -269,36 +262,6 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "stock_market_beta.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1440,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1161,
-								1161
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 336.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
