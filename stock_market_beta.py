@@ -3,43 +3,63 @@ import pandas.io.data as web
 import statsmodels.api as sm
 import matplotlib
 
-matplotlib.use('MacOSX')
+matplotlib.use('WebAgg')
 
 import matplotlib.pyplot as plt
 
 
-def lin_reg_stock(stock):
+def get_stock_data(stock, start_p, end_p):
+    stock = web.DataReader(stock, data_source='yahoo', start=start_p, end=end_p)
+    stock['log_ret'] = np.log(stock['Close'] / stock['Close'].shift(1))
+    stock['cum_ret'] = np.log(stock['Close'] / stock['Close'][0])
+    stock['log_ret'][0] = 0
+
+    return stock
+
+
+def lin_reg_stock(market, stock, start, end):
     # load stock data
-    spy = web.DataReader('SPY', data_source='yahoo',
-                         start='1/1/2015', end='8/27/2015')
-    nflx = web.DataReader(
-        stock, data_source='yahoo', start='1/1/2015', end='8/27/2015')
+    mkt = get_stock_data(market, start, end)
+    stk = get_stock_data(stock, start, end)
 
-    spy['log_ret'] = np.log(spy['Close'] / spy['Close'].shift(1))
-    nflx['log_ret'] = np.log(nflx['Adj Close'] / nflx['Adj Close'].shift(1))
-
-    spy['cum_ret'] = np.log(spy['Close'] / spy['Close'][0])
-    nflx['cum_ret'] = np.log(nflx['Adj Close'] / nflx['Adj Close'][0])
-
-    spy['log_ret'][0] = 0
-    nflx['log_ret'][0] = 0
-
-    x = spy['log_ret']
+    x = mkt['log_ret']
     x = sm.add_constant(x)
-    y = nflx['log_ret']
+    y = stk['log_ret']
 
     mdl = sm.OLS(y, x).fit()
-    print mdl.summary()
 
-    plt.figure(1)
-    plt.grid()
-    plt.plot(spy['cum_ret'], label='SPY')
-    plt.plot(nflx['cum_ret'], label=stock)
-    plt.legend()
+    return mdl
 
-    plt.figure(2)
-    plt.grid()
-    plt.plot(spy['log_ret'], nflx['log_ret'], 'ro', alpha=0.4)
-    plt.show()
+''' -------------------------------------------------------- '''
 
-lin_reg_stock('XOM')
+S_DATE = '1/1/2015'
+E_DATA = '8/27/2015'
+MARKET = 'SPY'
+STOCKS = ['TSLA', 'AAPL']
+stock = []
+
+market = get_stock_data(MARKET, S_DATE, E_DATA)
+for stk in STOCKS:
+    stock.append(get_stock_data(stk, S_DATE, E_DATA))
+
+plt.figure(1)
+plt.grid()
+plt.plot(market['cum_ret'], label=MARKET)
+
+i=0
+for stk in stock:
+    plt.plot(stk['cum_ret'], label=STOCKS[i])
+    i += 1
+
+plt.legend()
+plt.show()
+
+''' -------------------------------------------------------- '''
+
+'''mdl = lin_reg_stock(MARKET, STOCKS[0], S_DATE, E_DATA)
+
+print mdl.summary()
+plt.figure(2)
+plt.grid()
+plt.plot(market['log_ret'], stock['log_ret'], 'ro', alpha=0.4)
+plt.show()'''
