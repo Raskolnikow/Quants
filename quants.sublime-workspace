@@ -63,7 +63,7 @@
 			"file": "stock_market_beta.py",
 			"settings":
 			{
-				"buffer_size": 1446,
+				"buffer_size": 1440,
 				"line_ending": "Unix"
 			}
 		}
@@ -280,7 +280,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1446,
+						"buffer_size": 1440,
 						"regions":
 						{
 						},
